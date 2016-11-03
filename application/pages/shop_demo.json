@@ -12,10 +12,13 @@
             }
          },
          {
-            "widget": "amd:laxar-developer-tools-widget",
+            "widget": "laxar/laxar-developer-tools-widget",
             "features": {
                "button": {
                   "enabled": false
+               },
+               "develop": {
+                  "enabled": true
                },
                "open": {
                   "onActions": [ "showDevTools" ],
